@@ -1,0 +1,314 @@
+
+.under-header {
+    background: white;
+    padding: 10px;
+    font-size: 0.7rem;
+}
+
+.slidebar {
+    display: none;
+}
+
+.slidebar h6 {
+    font-size: .875rem !important;
+}
+
+.btn-under-head {
+    background: transparent;
+    border: none;
+    color: #959ea6 !important;
+}
+
+.btn-under-head svg {
+    background: #FDB713;
+    color: #1b1e21;
+    margin-right: 30px;
+    border-radius: 30px;
+    font-size: large;
+    padding: 0.4rem;
+}
+
+.ul-list li {
+    margin: 10px 0.8rem;
+    font-size: 0.87rem;
+    color: #6C7680;
+}
+
+.sort {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-list {
+    list-style: none;
+    background: white;
+    padding: 2px;
+    border-radius: 70px;
+    border: 1px #E2E6E9 solid;
+}
+
+.tozihat h5 {
+    font-size: .875rem !important;
+    text-align: right;
+}
+
+.tozihat {
+    direction: rtl;
+    margin-right: 20px;
+}
+
+.ul-card li {
+    margin: 10px 12px;
+    font-size: 0.7rem;
+    background: #F8FAFB;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.card-tozih {
+    background: white;
+    border-radius: 10px;
+    border: 1px #E2E6E9 solid;
+    padding: 10px;
+    box-shadow: 0 2px 5px -1px;
+    margin-top: 38px;
+    margin-bottom: 36px;
+}
+
+.btn-tozihat-card {
+    background: transparent;
+    color: #0077db;
+    border: none;
+    font-size: 0.8rem;
+}
+
+.price-det span {
+    color: #0077db !important;
+    font-weight: bolder;
+}
+
+.price-det button {
+    background: #0077db !important;
+    font-weight: 500 !important;
+    font-size: .875rem !important;
+    min-width: 5rem !important;
+    color: white;
+    padding: .25rem;
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
+    border-radius: 8px;
+    border: none;
+}
+
+.mabda-maghsad p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.bottom-icon1, .bottom-icon2, .bottom-icon3, .bottom-icon4, .bottom-icon4-1, .bottom-icon3-1, .bottom-icon2-1, .bottom-icon1-1 {
+    background: #F8FAFB;
+    border-radius: 15px;
+    color: #6c7680;
+    border: none;
+}
+
+.bottom-icon1:hover {
+    background: #E8F9FC;
+}
+
+.bottom-icon2:hover {
+    background: #E8F9FC;
+}
+
+.bottom-icon3:hover {
+    background: #E8F9FC;
+}
+
+.bottom-icon4:hover {
+    background: #E8F9FC;
+}
+
+.bottom-icon5:hover {
+    background: #E8F9FC;
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.az {
+    color: #6c7680;
+    font-size: small;
+}
+
+.x {
+    display: none;
+);
+}
+
+.price-det {
+    padding: 8px;
+
+}
+
+.paragraph span {
+    font-size: 0.875rem;
+    margin-left: 20px;
+}
+
+.close1 {
+    display: flex;
+    /* align-items: end; */
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-row {
+    font-size: 0.7rem;
+}
+
+.c6, .c7, .c8, .c9, .c10 {
+    color: #6C7680;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    font-size: .875rem !important;
+    width: 50%;
+}
+
+.paragraph {
+    /*margin-right: -97px;*/
+    padding: 0.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px #E2E6E9 solid;
+    margin-right: -7px;
+}
+
+.close-button-1 {
+    background: transparent;
+    border: none;
+    font-size: 0.75rem;
+    color: #0077db !important;
+}
+
+/*.close-button-1{*/
+/*    border: none;*/
+/*    background: transparent;*/
+/*    font-size: 0.75rem;*/
+/*}*/
+.paragraph-left span {
+    color: #6c7680 !important;
+}
+
+.inner-slider {
+    font-size: 0.8rem;
+    border-right: 1px #E2E6E9 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.same-slider {
+    background: white;
+    border: 1px #E2E6E9 solid;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: 600;
+
+}
+
+.button-svg {
+    background: #e5e7e7;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 3%;
+}
+
+.close1 {
+    background: transparent;
+    border: none;
+    font-size: 0.75rem;
+    color: #0077db !important;
+}
+
+
+@media (min-width: 992px) {
+    .under-header {
+        font-size: 0.87rem;
+    }
+
+    .price-det button {
+        min-width: 9rem !important;
+        padding: 0.5rem;
+    }
+
+    .paragraph span {
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+
+    .slidebar {
+        background: white;
+        margin-top: 20px;
+        text-align: right;
+        padding: 1rem 1.25rem;
+        border: 1px #E2E6E9 solid;
+        border-radius: 10px;
+        display: block;
+    }
+
+    .slidebar h6 {
+        font-size: .875rem !important;
+    }
+
+    .close2 {
+        display: none;
+    }
+
+    .x {
+        display: flex;
+        margin-right: 16px;
+
+    }
+
+    .btn-tozihat-card {
+        margin-right: -90px !important;
+        margin-left: 106px;
+    }
+
+    .margining {
+        margin-right: 30px;
+
+    }
+
+    .paragraph-right {
+        margin-right: -39px;
+        margin-top: 20px;
+    }
+
+    .paragraph1 {
+        margin-right: -74px;
+    }
+}
+
+@media (min-width: 1222px) {
+    .price-det button {
+        min-width: 13rem !important;
+    }
+}
